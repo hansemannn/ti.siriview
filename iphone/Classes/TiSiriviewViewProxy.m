@@ -18,6 +18,7 @@
 
 -(void)updateWithLevel:(id)args
 {
+    ENSURE_UI_THREAD(updateWithLevel, args);
     ENSURE_ARG_COUNT(args, 1);
     ENSURE_ARRAY(args);
     

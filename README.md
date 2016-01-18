@@ -49,6 +49,12 @@ var siriView = module.createView({
 });
 ```
 
+### Update
+You can animate the view by changing the (normalized) level:
+```javascript
+siriView.updateWithLevel(5);
+```
+
 For a full example, check the demo in ```example/app.js```.
 
 Author
@@ -57,7 +63,7 @@ Hans Knoechel ([@hansemannnn](https://twitter.com/hansemannnn) / [Web](http://ha
 
 License
 ---------------
-MIT
+Apache 2
 
 Contributing
 ---------------

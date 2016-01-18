@@ -26,10 +26,10 @@
 		24DD6CFA1134B3F500162E58 /* TiSiriviewModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* TiSiriviewModule.m */; };
 		24DE9E1111C5FE74003F90F6 /* TiSiriviewModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* TiSiriviewModuleAssets.h */; };
 		24DE9E1211C5FE74003F90F6 /* TiSiriviewModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* TiSiriviewModuleAssets.m */; };
+		3A66FCAA1C4D700400305C1E /* TiSiriviewView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A66FCA81C4D700400305C1E /* TiSiriviewView.h */; };
+		3A66FCAB1C4D700400305C1E /* TiSiriviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A66FCA91C4D700400305C1E /* TiSiriviewView.m */; };
 		3A9D50D41C4D5E6C005B368A /* TiSiriviewViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A9D50D21C4D5E6C005B368A /* TiSiriviewViewProxy.h */; };
 		3A9D50D51C4D5E6C005B368A /* TiSiriviewViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D50D31C4D5E6C005B368A /* TiSiriviewViewProxy.m */; };
-		3A9D50D81C4D5ECC005B368A /* TiSiriviewView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A9D50D61C4D5ECC005B368A /* TiSiriviewView.h */; };
-		3A9D50D91C4D5ECC005B368A /* TiSiriviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D50D71C4D5ECC005B368A /* TiSiriviewView.m */; };
 		3A9D50E01C4D604D005B368A /* SCSiriWaveformView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A9D50DE1C4D604D005B368A /* SCSiriWaveformView.h */; };
 		3A9D50E11C4D604D005B368A /* SCSiriWaveformView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D50DF1C4D604D005B368A /* SCSiriWaveformView.m */; };
 		AA747D9F0F9514B9006C5449 /* TiSiriview_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* TiSiriview_Prefix.pch */; };
@@ -52,10 +52,10 @@
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
 		24DE9E0F11C5FE74003F90F6 /* TiSiriviewModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiSiriviewModuleAssets.h; path = Classes/TiSiriviewModuleAssets.h; sourceTree = "<group>"; };
 		24DE9E1011C5FE74003F90F6 /* TiSiriviewModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiSiriviewModuleAssets.m; path = Classes/TiSiriviewModuleAssets.m; sourceTree = "<group>"; };
+		3A66FCA81C4D700400305C1E /* TiSiriviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiSiriviewView.h; path = Classes/TiSiriviewView.h; sourceTree = "<group>"; };
+		3A66FCA91C4D700400305C1E /* TiSiriviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiSiriviewView.m; path = Classes/TiSiriviewView.m; sourceTree = "<group>"; };
 		3A9D50D21C4D5E6C005B368A /* TiSiriviewViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiSiriviewViewProxy.h; path = Classes/TiSiriviewViewProxy.h; sourceTree = "<group>"; };
 		3A9D50D31C4D5E6C005B368A /* TiSiriviewViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiSiriviewViewProxy.m; path = Classes/TiSiriviewViewProxy.m; sourceTree = "<group>"; };
-		3A9D50D61C4D5ECC005B368A /* TiSiriviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiSiriviewView.h; sourceTree = "<group>"; };
-		3A9D50D71C4D5ECC005B368A /* TiSiriviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiSiriviewView.m; sourceTree = "<group>"; };
 		3A9D50DE1C4D604D005B368A /* SCSiriWaveformView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSiriWaveformView.h; sourceTree = "<group>"; };
 		3A9D50DF1C4D604D005B368A /* SCSiriWaveformView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSiriWaveformView.m; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* TiSiriview_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiSiriview_Prefix.pch; sourceTree = SOURCE_ROOT; };
@@ -110,10 +110,10 @@
 				24DE9E1011C5FE74003F90F6 /* TiSiriviewModuleAssets.m */,
 				24DD6CF71134B3F500162E58 /* TiSiriviewModule.h */,
 				24DD6CF81134B3F500162E58 /* TiSiriviewModule.m */,
+				3A66FCA81C4D700400305C1E /* TiSiriviewView.h */,
+				3A66FCA91C4D700400305C1E /* TiSiriviewView.m */,
 				3A9D50D21C4D5E6C005B368A /* TiSiriviewViewProxy.h */,
 				3A9D50D31C4D5E6C005B368A /* TiSiriviewViewProxy.m */,
-				3A9D50D61C4D5ECC005B368A /* TiSiriviewView.h */,
-				3A9D50D71C4D5ECC005B368A /* TiSiriviewView.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -144,10 +144,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A66FCAA1C4D700400305C1E /* TiSiriviewView.h in Headers */,
 				AA747D9F0F9514B9006C5449 /* TiSiriview_Prefix.pch in Headers */,
 				3A9D50E01C4D604D005B368A /* SCSiriWaveformView.h in Headers */,
 				24DD6CF91134B3F500162E58 /* TiSiriviewModule.h in Headers */,
-				3A9D50D81C4D5ECC005B368A /* TiSiriviewView.h in Headers */,
 				3A9D50D41C4D5E6C005B368A /* TiSiriviewViewProxy.h in Headers */,
 				24DE9E1111C5FE74003F90F6 /* TiSiriviewModuleAssets.h in Headers */,
 			);
@@ -226,9 +226,9 @@
 			files = (
 				24DD6CFA1134B3F500162E58 /* TiSiriviewModule.m in Sources */,
 				3A9D50D51C4D5E6C005B368A /* TiSiriviewViewProxy.m in Sources */,
-				3A9D50D91C4D5ECC005B368A /* TiSiriviewView.m in Sources */,
 				24DE9E1211C5FE74003F90F6 /* TiSiriviewModuleAssets.m in Sources */,
 				3A9D50E11C4D604D005B368A /* SCSiriWaveformView.m in Sources */,
+				3A66FCAB1C4D700400305C1E /* TiSiriviewView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
