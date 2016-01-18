@@ -1,106 +1,62 @@
-Appcelerator Titanium Mobile Module Project
-===========================================
+# Ti.SiriView
 
-This is a skeleton Titanium Mobile Mobile module project.
+ Summary
+---------------
+Ti.SiriView is an open-source project to support the `SCSiriWaveformView` library for iOS in Titanium Mobile. 
 
+Requirements
+---------------
+  - Titanium Mobile SDK 5.1.0.GA or later
+  - iOS 7.1 or later
+  - Xcode 6.4 or later
 
-MODULE NAMING
--------------
+Download + Setup
+---------------
 
-Choose a unique module id for your module.  This ID usually follows a namespace
-convention using DNS notation.  For example, com.appcelerator.module.test.  This
-ID can only be used once by all public modules in Titanium.
+### Download
+  * [Stable release](https://github.com/hansemannn/Ti.SiriView/releases)
+  * Install from gitTio    <a href="http://gitt.io/component/ti.siriview" target="_blank"><img src="http://gitt.io/badge@2x.png" width="120" height="18" alt="Available on gitTio" /></a>
 
-
-GET STARTED
-------------
-
-1. Edit manifest with the appropriate details about your module.
-2. Edit LICENSE to add your license details.
-3. Place any assets (such as PNG files) that are required anywhere in the module folder.
-4. Edit the timodule.json and configure desired settings.
-5. Code and build.
-
-
-DOCUMENTATION FOR YOUR MODULE
------------------------------
-
-You should provide at least minimal documentation for your module in `documentation` folder using the Markdown syntax.
-
-For more information on the Markdown syntax, refer to this documentation at:
-
-<http://daringfireball.net/projects/markdown/>
-
-
-TEST HARNESS EXAMPLE FOR YOUR MODULE
-------------------------------------
-
-The `example` directory contains a skeleton application test harness that can be
-used for testing and providing an example of usage to the users of your module.
-
-
-BUILDING YOUR MODULE
---------------------
-
-Simply run `titanium build --platform <name of platform> --build-type production --dir /path/to/module`.
-You can omit the --dir option if your working directory is in the module's project directory.
-
-
-INSTALL YOUR MODULE
--------------------
-
-Mac OS X
---------
-Copy the distribution zip file into the `~/Library/Application Support/Titanium` folder
-
-Linux
------
-Copy the distribution zip file into the `~/.titanium` folder
-
-Windows
--------
-Copy the distribution zip file into the `C:\ProgramData\Titanium` folder
-
-
-REGISTER YOUR MODULE
---------------------
-
-Register your module with your application by editing `tiapp.xml` and adding your module.
-Example:
-
+### Setup
+Unpack the module and place it inside the ``/modules/iphone`` folder of your project.
+Edit the modules section of your ``tiapp.xml`` file to include this module:
+```xml
 <modules>
-	<module version="0.1">ti.siriview</module>
+    <module platform="iphone">ti.siriview</module>
 </modules>
+```
 
-When you run your project, the compiler will combine your module along with its dependencies
-and assets into the application.
+Features
+--------------------------------
+#### View
+A view creates a sinus wave to emulate the Siri style. The following example is self-describing and shows the default values to configure a view:
 
+```javascript
+var module = require("ti.siriview");
 
-USING YOUR MODULE IN CODE
--------------------------
+var siriView = module.createView({
+    waveColor: "#f00",
+    numberOfWaves: 15,
+    height: 300,
+    primaryWaveLineWidth: 3,
+    secondaryWaveLineWidth: 1,
+    idleAmplitude: 0.01,
+    frequency: 1.5,
+    density: 1,
+    phaseShift: -0.15
+});
+```
 
-To use your module in code, you will need to require it.
+For a full example, check the demo in ```example/app.js```.
 
-For example,
+Author
+---------------
+Hans Knoechel ([@hansemannnn](https://twitter.com/hansemannnn) / [Web](http://hans-knoechel.de))
 
-	var my_module = require('ti.siriview');
-	my_module.foo();
+License
+---------------
+MIT
 
-
-TESTING YOUR MODULE
--------------------
-
-To test with the script, execute:
-
-	titanium run --dir=YOURMODULEDIR
-
-This will execute the app.js in the example folder as a Titanium application.
-
-
-DISTRIBUTING YOUR MODULE
--------------------------
-
-You can choose to manually distribute your module distribution zip file or through the Titanium Marketplace!
-
-
-Cheers!
+Contributing
+---------------
+Code contributions are greatly appreciated, please submit a Pull Request!
