@@ -1,5 +1,7 @@
 # Ti.SiriView
 
+<img src="http://abload.de/img/simulatorscreenshot183wy77.png" width="621" height="1104" alt="Ti.SiriView" />
+
  Summary
 ---------------
 Ti.SiriView is an open-source project to support the `SCSiriWaveformView` library for iOS in Titanium Mobile. 
