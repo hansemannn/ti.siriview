@@ -72,6 +72,11 @@
     [[self waveView] setDensity:[TiUtils floatValue:value]];
 }
 
+- (void)setBackgroundColor_:(id)value
+{
+    [[self waveView] setBackgroundColor:[[TiUtils colorValue:value] _color]];
+}
+
 - (void)setPhaseShift_:(id)value
 {
     ENSURE_TYPE(value, NSNumber);
