@@ -30,8 +30,8 @@
 		3A66FCAB1C4D700400305C1E /* TiSiriviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A66FCA91C4D700400305C1E /* TiSiriviewView.m */; };
 		3A9D50D41C4D5E6C005B368A /* TiSiriviewViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A9D50D21C4D5E6C005B368A /* TiSiriviewViewProxy.h */; };
 		3A9D50D51C4D5E6C005B368A /* TiSiriviewViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D50D31C4D5E6C005B368A /* TiSiriviewViewProxy.m */; };
-		3A9D50E01C4D604D005B368A /* SCSiriWaveformView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A9D50DE1C4D604D005B368A /* SCSiriWaveformView.h */; };
-		3A9D50E11C4D604D005B368A /* SCSiriWaveformView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D50DF1C4D604D005B368A /* SCSiriWaveformView.m */; };
+		3AF550451C5CE87B00D524CC /* SCSiriWaveformView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF550431C5CE87B00D524CC /* SCSiriWaveformView.h */; };
+		3AF550461C5CE87B00D524CC /* SCSiriWaveformView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF550441C5CE87B00D524CC /* SCSiriWaveformView.m */; };
 		AA747D9F0F9514B9006C5449 /* TiSiriview_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* TiSiriview_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -56,8 +56,8 @@
 		3A66FCA91C4D700400305C1E /* TiSiriviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiSiriviewView.m; path = Classes/TiSiriviewView.m; sourceTree = "<group>"; };
 		3A9D50D21C4D5E6C005B368A /* TiSiriviewViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiSiriviewViewProxy.h; path = Classes/TiSiriviewViewProxy.h; sourceTree = "<group>"; };
 		3A9D50D31C4D5E6C005B368A /* TiSiriviewViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiSiriviewViewProxy.m; path = Classes/TiSiriviewViewProxy.m; sourceTree = "<group>"; };
-		3A9D50DE1C4D604D005B368A /* SCSiriWaveformView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSiriWaveformView.h; sourceTree = "<group>"; };
-		3A9D50DF1C4D604D005B368A /* SCSiriWaveformView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSiriWaveformView.m; sourceTree = "<group>"; };
+		3AF550431C5CE87B00D524CC /* SCSiriWaveformView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSiriWaveformView.h; sourceTree = "<group>"; };
+		3AF550441C5CE87B00D524CC /* SCSiriWaveformView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSiriWaveformView.m; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* TiSiriview_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiSiriview_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libTiSiriview.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTiSiriview.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,7 +105,7 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3A9D50DD1C4D604D005B368A /* SCSiriWaveformView */,
+				3AF550421C5CE87B00D524CC /* SCSiriWaveformView */,
 				24DE9E0F11C5FE74003F90F6 /* TiSiriviewModuleAssets.h */,
 				24DE9E1011C5FE74003F90F6 /* TiSiriviewModuleAssets.m */,
 				24DD6CF71134B3F500162E58 /* TiSiriviewModule.h */,
@@ -127,14 +127,14 @@
 			name = "Other Sources";
 			sourceTree = "<group>";
 		};
-		3A9D50DD1C4D604D005B368A /* SCSiriWaveformView */ = {
+		3AF550421C5CE87B00D524CC /* SCSiriWaveformView */ = {
 			isa = PBXGroup;
 			children = (
-				3A9D50DE1C4D604D005B368A /* SCSiriWaveformView.h */,
-				3A9D50DF1C4D604D005B368A /* SCSiriWaveformView.m */,
+				3AF550431C5CE87B00D524CC /* SCSiriWaveformView.h */,
+				3AF550441C5CE87B00D524CC /* SCSiriWaveformView.m */,
 			);
 			name = SCSiriWaveformView;
-			path = SCSiriWaveformView/SCSiriWaveformView;
+			path = Classes/SCSiriWaveformView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,8 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A66FCAA1C4D700400305C1E /* TiSiriviewView.h in Headers */,
+				3AF550451C5CE87B00D524CC /* SCSiriWaveformView.h in Headers */,
 				AA747D9F0F9514B9006C5449 /* TiSiriview_Prefix.pch in Headers */,
-				3A9D50E01C4D604D005B368A /* SCSiriWaveformView.h in Headers */,
 				24DD6CF91134B3F500162E58 /* TiSiriviewModule.h in Headers */,
 				3A9D50D41C4D5E6C005B368A /* TiSiriviewViewProxy.h in Headers */,
 				24DE9E1111C5FE74003F90F6 /* TiSiriviewModuleAssets.h in Headers */,
@@ -227,8 +227,8 @@
 				24DD6CFA1134B3F500162E58 /* TiSiriviewModule.m in Sources */,
 				3A9D50D51C4D5E6C005B368A /* TiSiriviewViewProxy.m in Sources */,
 				24DE9E1211C5FE74003F90F6 /* TiSiriviewModuleAssets.m in Sources */,
-				3A9D50E11C4D604D005B368A /* SCSiriWaveformView.m in Sources */,
 				3A66FCAB1C4D700400305C1E /* TiSiriviewView.m in Sources */,
+				3AF550461C5CE87B00D524CC /* SCSiriWaveformView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
