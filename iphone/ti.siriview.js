@@ -10,8 +10,8 @@ var UIColor = require("UIKit/UIColor"),
 exports = {
     /**
      *  Create a new wave view
-     *  @param args The arguments to be passed to create a view.
-     *  @return SCSiriWaveformView The configured native view.
+     *  @param {Object} args The arguments to be passed to create a view.
+     *  @return {SCSiriWaveformView} The configured native view.
      */
     createView: function(args) {
         waveView.setWaveColor(args.waveColor || UIColor.whiteColor());
@@ -28,7 +28,7 @@ exports = {
 
     /**
      *  Tells the waveform to redraw itself using the given level (normalized value).
-     *  @param arg The normalized value.
+     *  @param {Object} arg The normalized value.
      *  @return void
      */
     updateWithLevel: function(arg) {
