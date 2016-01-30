@@ -1,0 +1,4 @@
+platform :ios, '7.0'
+target 'Your_Project_Name' do
+	pod 'SCSiriWaveformView'
+end
